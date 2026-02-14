@@ -124,8 +124,8 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans
-&trans  &trans  &trans
+&trans  &kp LA(LEFT)  &kp LA(RIGHT_ARROW)
+&trans  &trans        &trans
             >;
         };
 
