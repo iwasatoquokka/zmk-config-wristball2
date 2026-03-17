@@ -90,7 +90,7 @@
         default_layer {
             bindings = <
 &mkp MB2  &mkp MB1       &mo 5
-&tog 5    &pmw_rotation  &mo 6
+&tog 5    &mo 6          &mo 6
             >;
         };
 
@@ -124,7 +124,7 @@
 
         SCROLL {
             bindings = <
-&trans  &kp LA(LEFT)  &kp LA(RIGHT_ARROW)
+&pmw_rotation  &kp LA(LEFT)  &kp LA(RIGHT_ARROW)
 &trans  &trans        &trans
             >;
         };
